@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Checkout\CustomerData\Cart">
+        <plugin name="dolphin_free_shipping_message" 
+                type="Dolphin\FreeShippingMessage\Plugin\CustomerData\Cart" 
+                sortOrder="10"/>
+    </type>
+</config>
